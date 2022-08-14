@@ -424,6 +424,7 @@ a {
 .clients-link:hover,
 .clients-link:focus{
   background-color: #FFFFFF;
+  border-color: #2196f3;
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon{
