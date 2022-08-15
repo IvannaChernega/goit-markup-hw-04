@@ -8,7 +8,6 @@
   --background-color: #2f303a;
   --footer-address-color: rgba(255, 255, 255, 0.6);
   --icon-color: #afb1b8;
-
 }
 
 .body {
@@ -95,11 +94,13 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .link {
   color: #212121;
 }
-
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -145,7 +146,8 @@ a {
   color: #2196f3;
 }
 
-.mail-ref, .tel-ref {
+.mail-ref,
+.tel-ref {
   display: flex;
   justify-content: center;
 }
@@ -160,7 +162,7 @@ a {
   fill: currentColor;
 }
 .tel-contact-link:hover .tel-icon,
-.mail-contact-link:hover .mail-icon{
+.mail-contact-link:hover .mail-icon {
   fill: #2196f3;
 }
 
@@ -359,15 +361,14 @@ a {
 }
 .team-card {
   padding-top: 30px;
-  paddin
+  padding-bottom: 30px;
 }
-.social-list{
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 30px;
 }
-.social-list-link{
+.social-list-link {
   color: var(--icon-color);
   display: flex;
   justify-content: center;
@@ -377,32 +378,32 @@ a {
   border-radius: 50%;
   background-color: #ffffff;
 }
-.social-list-icon{
+.social-list-icon {
   fill: currentColor;
 }
 .social-list-link:hover,
-.social-list-link:focus{
+.social-list-link:focus {
   background-color: #2196f3;
 }
 .social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{
-  fill: #FFFFFF;
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
 }
 /* ----------Постійні клієнти----------- */
 
 .clients-title {
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-.clients-list{
+.clients-list {
   display: flex;
 }
-.clients-item:not(:last-child){
+.clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -422,12 +423,12 @@ a {
   fill: currentColor;
 }
 .clients-link:hover,
-.clients-link:focus{
-  background-color: #FFFFFF;
+.clients-link:focus {
+  background-color: #ffffff;
   border-color: #2196f3;
 }
 .clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon{
+.clients-link:focus .clients-icon {
   fill: #2196f3;
 }
 
@@ -438,11 +439,11 @@ a {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-.footer-wrap{
+.footer-wrap {
   display: flex;
   align-items: baseline;
 }
-.adress-footer-wrap{
+.adress-footer-wrap {
   margin-right: 70px;
 }
 .web-logo-footer {
@@ -493,13 +494,13 @@ a {
   margin-bottom: 9px;
 }
 /* ============-social-footer============= */
-.footer-wrap{
+.footer-wrap {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
   align-items: baseline;
 }
-.social-footer-title{
+.social-footer-title {
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
@@ -508,14 +509,14 @@ a {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.social-footer-list{
+.social-footer-list {
   display: flex;
   justify-content: center;
 }
-.social-footer-item:not(:last-child){
+.social-footer-item:not(:last-child) {
   margin-right: 10px;
 }
-.social-footer-link{
+.social-footer-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -523,9 +524,8 @@ a {
   justify-content: center;
   align-items: center;
   color: var(--white);
-
 }
-.social-footer-icon{
+.social-footer-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -534,7 +534,8 @@ a {
   background: rgba(255, 255, 255, 0.1);
   color: var(--white);
 }
-.social-footer-link:hover{
+.social-footer-link:hover,
+.social-footer-link:focus {
   background-color: #2196f3;
 }
 /* --------------  ПОРТФОЛИО    ------------ */
@@ -634,11 +635,10 @@ a {
   color: var(--secondary-text-color);
 }
 /* ============-social-footer============= */
-.footer-wrap{
+.footer-wrap {
   display: flex;
   align-items: baseline;
 }
-.social-footer-title{
+.social-footer-title {
   color: var(--white);
-
 }
